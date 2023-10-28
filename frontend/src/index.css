@@ -7,14 +7,15 @@ h3{
 }
 
 h1{
-  font-size: 1.8rem;
-  padding: 1rem 0;
+  font-size: 2.8rem;
+  padding: 20px 0;
+  padding-bottom: 0;
 }
 
-h1{
-  font-size: 1.4rem;
+/* h1{
+  font-size: 2.4rem;
   padding: 0.5rem 0;
-}
+} */
 
 div{
   padding: 0.5rem 0.2rem;
@@ -25,32 +26,46 @@ div{
 }
 
 /* carousel */
+.carousel {
+  height: 300px;
+  width: auto;
+  box-shadow: 1px 1px 1px 1px;
+  padding: 0%;
+  background-color: rgb(211, 208, 204);
+}
 .carousel-item-next,
 .carousel-item-prev,
 .carousel-item.active {
   display: flex;
+  
 }
 .carousel-caption {
-  position: absolute;
-  top: 0;
+  position: relative;
+  top: 100px;
+  padding-left: 600px;
 }
 
 .carousel-caption h2 {
-  color: #fff;
-  font-size: 1.8vw;
+  color: rgb(3, 3, 3);
+  font-size: 1.0vw;
 }
 
 .carousel img {
-  height: 300px;
-  padding: 30px;
-  margin: 40px;
-  border-radius: 50%;
-  margin-left: 34%;
-  margin-right: auto;
+   
+  height: 500px;
+  width: 53%;
+  margin-top: -15px;
+  padding-bottom: 205px;
+  /* margin: 40px; */
+  /* border-radius: 20%; */
+  /* margin-left: 34%; */
+  /* margin-left: 50px; */
+  
 }
 .carousel a {
   margin: 0 auto;
 }
+
 @media (max-width: 900px) {
   .carousel-caption h2 {
     font-size: 2.5vw;
